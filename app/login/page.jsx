@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation';
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import Link from "next/link";
 
-export function Login() {
+export default function Login() {
   const [error, setError] = useState(null);
   const router = useRouter(); // Initialize useRouter
 
@@ -75,5 +75,3 @@ export function Login() {
     </div>
   );
 }
-
-export default Login;
