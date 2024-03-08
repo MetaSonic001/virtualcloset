@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
-export function Login() {
+const Login= () => {
   return (
     <div className="relative flex flex-col min-h-screen">
       <img
