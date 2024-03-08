@@ -64,7 +64,7 @@ export function Login() {
               </a>
             </div>
             <div className="text-sm text-black">
-              Don't have an account?
+                Don&apos;t have an account?
               <Link href="/Signup">
                 <span className="underline cursor-pointer">Create an account</span>
               </Link>
