@@ -11,10 +11,10 @@ export default function Header() {
         </a>
       </Link>
       <nav className="ml-auto flex gap-4 sm:gap-6">
-        <NavLink href="#">Features</NavLink>
-        <NavLink href="#">Pricing</NavLink>
+        <NavLink href="/Closet">My Closet</NavLink>
         <NavLink href="#">About</NavLink>
         <NavLink href="#">Contact</NavLink>
+        <NavLink href="/login">Login/Signup</NavLink>
       </nav>
     </header>
   );
